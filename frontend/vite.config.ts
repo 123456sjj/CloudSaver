@@ -63,6 +63,7 @@ export default defineConfig({
   },
   server: {
     host: "0.0.0.0",
+    allowedHosts: ["2454a9b4-57c2-455a-b81e-76ab714194b8-00-39qs4dwkr9wx1.picard.replit.dev"],
     port: 8008,
     proxy: {
       "/api": {
